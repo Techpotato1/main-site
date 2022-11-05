@@ -6,10 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Techpotato's Website</title>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
     <link rel="shortcut icon" type="image/jpg" href="Assets/New_Logo.png" />
     <script src="index.js"></script>
   </head>
   <body>
+    <button onclick="toggleFullscreen();" class="fullscreen">
+      <span class="material-symbols-outlined" style="font-size: 3em">
+        fullscreen
+      </span>
+    </button>
+
     <div id="title">
       <h1 class="title">Techpotato</h1>
       <h2 style="margin-top: -85px; font-size: 35px">Youtube • Github</h2>
@@ -17,7 +27,7 @@
     <div id="youtube">
       <h2 style="font-size: 80px">Youtube</h2>
       <h2 style="margin-top: -60px">Featured Video</h2>
-      <iframe 
+      <iframe
         width="560"
         height="315"
         src="https://www.youtube.com/embed/TrY1dfGPQ1c"

@@ -48,5 +48,19 @@ iframe {
   text-transform: capitalize;
 }
 .a:hover {
-  color:aquamarine;
+  color: aquamarine;
+}
+span {
+  color: aquamarine;
+}
+span:hover {
+  opacity: 67%;
+}
+button {
+  border: none;
+  background: #121212;
+  cursor: pointer;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
