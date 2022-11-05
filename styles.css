@@ -6,12 +6,12 @@ body {
 }
 .title {
   font-size: 175px;
+  margin-top: -65px;
 }
 #title {
   font-family: "Lexend", sans-serif;
   color: white;
   text-align: center;
-  margin-top: -50px;
 }
 #youtube {
   color: white;
@@ -63,4 +63,11 @@ button {
   transition: background 250ms ease-in-out, transform 150ms ease;
   -webkit-appearance: none;
   -moz-appearance: none;
+}
+.link
+{
+  color:white;
+  text-decoration: none;
+  font-family: 'Lexend', sans-serif;
+  font-size: 25px;
 }
