@@ -1,7 +1,6 @@
 console.log("Javascript Loaded!");
 function getFullscreenElement() {
     return (
-    // Ignore, typescript is dumb
     document.fullscreenElement ||
         document.mozFullscreenElement ||
         document.webkitFullscreenElement);
