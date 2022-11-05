@@ -1,1 +1,1 @@
-A simple test for the Techpotao website.
+A simple test for the Techpotato website.
