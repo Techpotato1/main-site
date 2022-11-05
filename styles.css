@@ -1,60 +1,52 @@
-body
-{
-    background-color: #121212;
+html {
+  scroll-behavior: smooth;
 }
-.title
-{
-    font-size: 175px;
+body {
+  background-color: #121212;
 }
-#title
-{
-    font-family: 'Lexend', sans-serif;
-    color:white;
-    text-align: center;
-    margin-top: -50px;
+.title {
+  font-size: 175px;
 }
-#youtube
-{
-    color: white;
-    font-family: 'Lexend', sans-serif;
-    margin-top: 150px;
-    text-align: center;
+#title {
+  font-family: "Lexend", sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: -50px;
 }
-#github
-{
-    font-family: 'Lexend', sans-serif;
-    margin-top: 150px;
-    text-align: center;
+#youtube {
+  color: white;
+  font-family: "Lexend", sans-serif;
+  margin-top: 150px;
+  text-align: center;
 }
-iframe:hover
-{
-    color: aquamarine;
-    
+#github {
+  font-family: "Lexend", sans-serif;
+  margin-top: 150px;
+  text-align: center;
 }
-iframe
-{
-    color:#121212;
+iframe:hover {
+  color: aquamarine;
 }
-.btop
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    font-family: 'Lexend', sans-serif;
-    font-size: 25px;
+iframe {
+  color: #121212;
 }
-.a
-{
-    text-decoration: none;
-    font-size: 100px;
-    color:white;
-    font-weight: bolder;    
-    text-transform: capitalize; 
+.btop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-family: "Lexend", sans-serif;
+  font-size: 25px;
 }
-.a:hover
-{
-    color:aquamarine;
+.a {
+  text-decoration: none;
+  font-size: 100px;
+  color: white;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+.a:hover {
+  color: aquamarine;
 }
