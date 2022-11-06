@@ -13,9 +13,6 @@ function toggleFullscreen() {
         document.documentElement.requestFullscreen().catch((console.log));
     }
 }
-document.addEventListener("dblclick", () => {
-    toggleFullscreen();
-});
 document.addEventListener("fullscreenchange", () => {
     console.log("Fullscreen Changed");
 });
