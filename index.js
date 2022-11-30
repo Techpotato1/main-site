@@ -1,18 +1,18 @@
 console.log("Javascript Loaded!");
 function getFullscreenElement() {
-    return (
+  return (
     document.fullscreenElement ||
-        document.mozFullscreenElement ||
-        document.webkitFullscreenElement);
+    document.mozFullscreenElement ||
+    document.webkitFullscreenElement
+  );
 }
 function toggleFullscreen() {
-    if (getFullscreenElement()) {
-        document.exitFullscreen();
-    }
-    else {
-        document.documentElement.requestFullscreen().catch((console.log));
-    }
+  if (getFullscreenElement()) {
+    document.exitFullscreen();
+  } else {
+    document.documentElement.requestFullscreen().catch(console.log);
+  }
 }
 document.addEventListener("fullscreenchange", () => {
-    console.log("Fullscreen Changed");
+  console.log("Fullscreen Changed");
 });
