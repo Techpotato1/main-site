@@ -21,10 +21,10 @@ body {
   margin-top: 150px;
   text-align: center;
 }
-.box{
-  float:left;
-  margin-right:20px;
-  margin-left:250px;
+.box {
+  float: left;
+  margin-right: 20px;
+  margin-left: 250px;
 }
 #github {
   font-family: "Lexend", sans-serif;
