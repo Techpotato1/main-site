@@ -1,0 +1,19 @@
+{
+  "name": "main-site",
+  "version": "1.0.0",
+  "description": "A website for Techpotato1",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Techpotato1/main-site.git"
+  },
+  "author": "Techpotato1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Techpotato1/main-site/issues"
+  },
+  "homepage": "https://github.com/Techpotato1/main-site#readme"
+}
