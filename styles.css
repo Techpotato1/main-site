@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #121212;
+  scrollbar-width: none;
+}
+.title {
+  font-size: 175px;
+  margin-top: -65px;
+}
+.box {
+  float: left;
+  margin-right: 20px;
+  margin-left: 250px;
+}
+.box1 {
+  float: right;
+  margin-right: 250px;
+  margin-left: 20px;
+}
+#title {
+  font-family: "Lexend", sans-serif;
+  color: white;
+  text-align: center;
+  font-weight: 800px;
+  width: 100%;
+  height: 100%;
+  font-size: 40px;
+  padding: 0;
+}
+#youtube {
+  color: white;
+  font-family: "Lexend", sans-serif;
+  margin-top: 150px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  font-size: 40px;
+  float: center;
+}
+#youtube-title {
+  font-size: 150px;
+}
+#youtube-video {
+  width: 500px;
+  height: 300px;
+  float: left;
+}
+#youtube-playlist {
+  width: 500px;
+  height: 300px;
+  float: left;
+}
+#github {
+  font-family: "Lexend", sans-serif;
+  margin-top: 150px;
+  text-align: center;
+  color: white;
+  width: 100%;
+  height: 100%;
+  bottom: 20px;
+  font-size: 65px;
+  float: bottom;
+}
+#github-title { 
+  font-size: 150px;
+  padding: 10px;
+  top: 10%;
+}
+#github-projects { 
+  font-size: 90px;
+  padding: 5px;
+}
+#morningscript { 
+  font-size: 65px;
+  border: none;
+  padding: none;
+  position: relative;
+}
+#morningscript-download { 
+  font-size: 40px;
+  border: none;
+  padding: none;
+  position: relative;
+}
+#website { 
+  font-size: 65px;
+  border: none;
+  padding: none;
+  position: relative;
+}
+#website-download { 
+  font-size: 40px;
+  border: none;
+  padding: none;
+  position: relative;
+}
+iframe:hover {
+  color: aquamarine;
+}
+iframe {
+  color: #121212;
+}
+.btop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-family: "Lexend", sans-serif;
+  font-size: 25px;
+}
+.a {
+  text-decoration: none;
+  font-size: 100px;
+  color: white;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+.a:hover {
+  color: aquamarine;
+}
+span {
+  color: aquamarine;
+}
+span:hover {
+  opacity: 67%;
+}
+button {
+  border: none;
+  background: #121212;
+  cursor: pointer;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  appearance: none;
+}
+.link {
+  color: white;
+  text-decoration: none;
+  font-family: "Lexend", sans-serif;
+  font-size: 25px;
+}
+@-moz-document url-prefix() { /* Disable scrollbar Firefox */
+  html{
+    scrollbar-width: none;
+  }
+}
+body {
+  margin: 0; /* remove default margin */
+  scrollbar-width: none; /* Also needed to disable scrollbar Firefox */
+  -ms-overflow-style: none;  /* Disable scrollbar IE 10+ */
+  overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* Disable scrollbar Chrome/Safari/Webkit */
+}

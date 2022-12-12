@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Techpotato's Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="shortcut icon" type="image/jpg" href="Assets/New_Logo.png" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <button onclick="toggleFullscreen();" class="fullscreen">
+      <span class="material-symbols-outlined" style="font-size: 3em">
+        fullscreen
+      </span>
+    </button>
+    <div id="title">
+      <h2 style="margin-top: 0%;">BETA SITE</h2>
+      <h1 id="title-name" class="title" style="margin-top: 0%;">Techpotato</h1>
+      <h2 style="margin-top: 0%;">Youtube • Github</h2>
+    </div>
+    <div id="youtube">
+      <div>
+        <a
+          id = "youtube-title"
+          style = "margin-left: 5%; margin-top: 5%;"
+          class="a"
+          href="https://www.youtube.com/channel/UCWMmTqMCIhg6UxknsssWLvA"
+          target="_blank"
+          >Youtube
+        </a>
+      </div>
+      <div class="box">
+        <h2>Featured Video</h2>
+        <iframe
+          id = "youtube-video"
+          style = "margin-top: 5%;"
+          src="https://www.youtube.com/embed/TrY1dfGPQ1c"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="box">
+        <h2>Featured Playlist</h2>
+        <iframe
+          id = "youtube-playlist"
+          style="margin-top: 5%;"
+          src="https://www.youtube.com/embed/videoseries?list=PLUzDaPUzBT5w_WQktnOwjoedFPK-gIK_T"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+    <div id="github">
+      <a
+        id = "github-title"
+        style = "margin-top: 10%;"
+        href="https://github.com/Techpotato1"
+        class="a"
+        target="_blank"
+        >Github
+      </a>
+      <h1 id = "github-projects">Projects</h1>
+      <div>
+        <a
+          id = "morningscript"
+          href="https://github.com/Techpotato1/Python-Morning-Script/tree/93a6d65b2d9a32c1b6a1ac99ca0f6364ed034fee"
+          class="a"
+          target="_blank"
+          style="margin-top: 15%;"
+          >Morningscript
+        </a>
+        <div>
+          <a
+            id = "morningscript-download"
+            href="https://github.com/Techpotato1/Python-Morning-Script/releases/download/v1.0.2/morningscript.exe"
+            class="a"
+            style="margin-top: 15%;"
+            >download</a
+          >
+        </div>
+      </div>
+      <div>
+        <a
+          id = "website"
+          href="https://github.com/Techpotato1/main-site"
+          class="a"
+          target="_blank"
+          style="margin-top: 20%"
+          >This Website!
+        </a>
+        <div>
+          <a
+            id = "website-download"
+            href="https://github.com/Techpotato1/main-site/archive/refs/heads/main.zip"
+            class="a"
+            style="margin-top: 20%"
+            >Download
+          </a>
+        </div>
+      </div>
+    </div>
+    <a id="youtube" class="btop" href="#">Back to top</a>
+    <a href="index.html" class="link" style="margin-left: 3px">Back to main</a>
+  </body>
+</html>
