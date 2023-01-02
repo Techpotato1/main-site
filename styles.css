@@ -10,18 +10,6 @@ body {
   font-size: 175px;
   margin-top: -65px;
 }
-#title {
-  font-family: "Lexend", sans-serif;
-  color: white;
-  text-align: center;
-  font-weight: 800;
-}
-#youtube {
-  color: white;
-  font-family: "Lexend", sans-serif;
-  margin-top: 150px;
-  text-align: center;
-}
 .box {
   float: left;
   margin-right: 20px;
@@ -32,11 +20,82 @@ body {
   margin-right: 250px;
   margin-left: 20px;
 }
+#title {
+  font-family: "Lexend", sans-serif;
+  color: white;
+  text-align: center;
+  font-weight: 800px;
+  width: 100%;
+  height: 100%;
+  font-size: 40px;
+  padding: 0;
+}
+#youtube {
+  color: white;
+  font-family: "Lexend", sans-serif;
+  margin-top: 150px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  font-size: 40px;
+  float: center;
+}
+#youtube-title {
+  font-size: 150px;
+}
+#youtube-video {
+  width: 500px;
+  height: 300px;
+  float: left;
+}
+#youtube-playlist {
+  width: 500px;
+  height: 300px;
+  float: left;
+}
 #github {
   font-family: "Lexend", sans-serif;
-  margin-top: 500px;
+  margin-top: 150px;
   text-align: center;
   color: white;
+  width: 100%;
+  height: 100%;
+  bottom: 20px;
+  font-size: 65px;
+  float: bottom;
+}
+#github-title { 
+  font-size: 150px;
+  padding: 10px;
+  top: 10%;
+}
+#github-projects { 
+  font-size: 90px;
+  padding: 5px;
+}
+#morningscript { 
+  font-size: 65px;
+  border: none;
+  padding: none;
+  position: relative;
+}
+#morningscript-download { 
+  font-size: 40px;
+  border: none;
+  padding: none;
+  position: relative;
+}
+#website { 
+  font-size: 65px;
+  border: none;
+  padding: none;
+  position: relative;
+}
+#website-download { 
+  font-size: 40px;
+  border: none;
+  padding: none;
+  position: relative;
 }
 iframe:hover {
   color: aquamarine;
