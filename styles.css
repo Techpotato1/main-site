@@ -1,49 +1,63 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 html {
   scroll-behavior: smooth;
 }
+
 body {
   background-color: #121212;
   scrollbar-width: none;
 }
+
 .title {
   font-size: 175px;
   margin-top: -65px;
 }
+
 #title {
   font-family: "Lexend", sans-serif;
   color: white;
   text-align: center;
   font-weight: 800;
 }
+
 #youtube {
   color: white;
   font-family: "Lexend", sans-serif;
   margin-top: 150px;
   text-align: center;
 }
+
 .box {
   float: left;
   margin-right: 20px;
   margin-left: 250px;
 }
+
 .box1 {
   float: right;
   margin-right: 250px;
   margin-left: 20px;
 }
+
 #github {
   font-family: "Lexend", sans-serif;
-  margin-top: 500px;
+  margin-top: 800px;
   text-align: center;
   color: white;
 }
+
 iframe:hover {
   color: aquamarine;
 }
+
 iframe {
   color: #121212;
+  max-width: 100%;
+  max-height: 100%;
+  padding: auto;
 }
+
 .btop {
   display: flex;
   justify-content: center;
@@ -54,6 +68,7 @@ iframe {
   font-family: "Lexend", sans-serif;
   font-size: 25px;
 }
+
 .a {
   text-decoration: none;
   font-size: 100px;
@@ -61,15 +76,19 @@ iframe {
   font-weight: bolder;
   text-transform: capitalize;
 }
+
 .a:hover {
   color: aquamarine;
 }
+
 span {
   color: aquamarine;
 }
+
 span:hover {
   opacity: 67%;
 }
+
 button {
   border: none;
   background: #121212;
@@ -77,24 +96,33 @@ button {
   transition: background 250ms ease-in-out, transform 150ms ease;
   appearance: none;
 }
+
 .link {
   color: white;
   text-decoration: none;
   font-family: "Lexend", sans-serif;
   font-size: 25px;
 }
-@-moz-document url-prefix() { /* Disable scrollbar Firefox */
-  html{
+
+@-moz-document url-prefix() {
+  /* Disable scrollbar Firefox */
+  html {
     scrollbar-width: none;
   }
 }
+
 body {
-  margin: 0; /* remove default margin */
-  scrollbar-width: none; /* Also needed to disable scrollbar Firefox */
-  -ms-overflow-style: none;  /* Disable scrollbar IE 10+ */
+  margin: 0;
+  /* remove default margin */
+  scrollbar-width: none;
+  /* Also needed to disable scrollbar Firefox */
+  -ms-overflow-style: none;
+  /* Disable scrollbar IE 10+ */
   overflow-y: scroll;
 }
+
 body::-webkit-scrollbar {
   width: 0px;
-  background: transparent; /* Disable scrollbar Chrome/Safari/Webkit */
+  background: transparent;
+  /* Disable scrollbar Chrome/Safari/Webkit */
 }

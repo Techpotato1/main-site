@@ -1,4 +1,4 @@
-console.log("Javascript Loaded!");
+console.log("Javascript Loading...");
 function getFullscreenElement() {
   return (
     document.fullscreenElement ||
@@ -16,3 +16,4 @@ function toggleFullscreen() {
 document.addEventListener("fullscreenchange", () => {
   console.log("Fullscreen Changed");
 });
+console.log("Javascript Loaded!");
